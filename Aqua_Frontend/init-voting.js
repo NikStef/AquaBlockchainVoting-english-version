@@ -161,25 +161,16 @@ async function errorFinder(particular_error) {
     var substr5 = "VotAlreadyExists"
     var substr6 = "LastStage"
     var substr7 = "AlreadyCalculated"
-    //console.log(error)
 
     try {
-        //var p1 = particular_error.data
         var p1 = particular_error.data.message
     } catch {}
     try {
         var p2 = particular_error.message
     } catch {}
-
-    // console.log(particular_error)
-    // console.log(p1)
-    // console.log(p2)
-
-    //console.log(particular_error.includes(substr1))
     if (p2.includes(substr0)) {
         document.getElementById("error_code").innerHTML =
             "User denied the transaction"
-        //console.log("Ο χρήστης απέρριψε την συναλλαγή.")
     }
     if (p1.includes(substr1)) {
         document.getElementById("error_code").innerHTML =

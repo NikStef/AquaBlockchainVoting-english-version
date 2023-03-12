@@ -91,14 +91,7 @@ async function genesis() {
 
                 const random = Math.floor(Math.random() * colours.length)
                 let name = `${information.name}:`
-
-                // if (count == 0) {
-                //     name = "Μη-Αποδοχή:"
-                // }
                 let votecount = parseInt(information.voteCount._hex, 16)
-                // let percentofVotes = `${Math.round(
-                //     (votecount * 100) / totalVotes
-                // )}%`
                 var table = document.getElementById("poll")
                 var td = document.createElement("td")
                 td.appendChild(document.createTextNode(name))
@@ -108,8 +101,6 @@ async function genesis() {
                 td.appendChild(document.createTextNode(votecount))
                 table.appendChild(td)
                 var td = document.createElement("td")
-                // td.appendChild(document.createTextNode(percentofVotes))
-                // table.appendChild(td)
                 var tr = document.createElement("tr")
                 table.appendChild(tr)
 
@@ -158,7 +149,7 @@ async function genesis() {
                                     labelString: "AV-score",
                                 },
                                 ticks: {
-                                    stepSize: 1, // tick
+                                    stepSize: 1,
                                 },
                             },
                         ],

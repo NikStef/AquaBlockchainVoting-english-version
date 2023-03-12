@@ -4,7 +4,7 @@
 
 It was created in the context of my thesis entitled **"Study of the security of electronic voting with blockchain technology. "**.
 
-## Περιεχόμενα
+## Table of Contents
 * [Technologies](#Technologies)
 * [Installation](#Installation)
 * [Author](#Author)

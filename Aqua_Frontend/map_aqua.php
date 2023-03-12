@@ -11,12 +11,12 @@ body {
 .sidenav {
   height: 100%;
   width: 0;
-  position: fixed; //positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled
-  z-index: 0; //overlaping-higher index on top
+  position: fixed; 
+  z-index: 0; 
   top: 0;
   left: 0;
   background-color: #FFFFFF;
-  padding-top: 60px; //xoros apo pano
+  padding-top: 60px; 
 }
 
 .sidenav a {
@@ -24,7 +24,7 @@ body {
   text-decoration: none; //u,b,-
   font-size: 25px;
   color: #818181;
-  display: block; // ana block 
+  display: block;  
 }
 
 .sidenav a:hover {
