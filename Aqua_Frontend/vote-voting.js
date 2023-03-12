@@ -59,11 +59,9 @@ async function errorFinder(particular_error) {
 
     try {
         var p1 = particular_error.data.message
-        //console.log(p1)
     } catch {}
     try {
         var p2 = particular_error.message
-        //console.log(p2)
     } catch {}
 
     if (p2.includes(substr0)) {
