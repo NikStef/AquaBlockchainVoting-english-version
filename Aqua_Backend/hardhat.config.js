@@ -25,7 +25,7 @@ module.exports = {
             chainId: 5,
         },
         localhostgn: {
-            url: "HTTP://192.168.208.1:7545",
+            url: "HTTP://172.21.96.1:7545",
             accounts: [PRIVATE_KEY_GANACHE],
             chainId: 1337,
         },

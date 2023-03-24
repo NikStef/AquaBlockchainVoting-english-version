@@ -37,7 +37,7 @@ body {
 .sidenav b{
   padding: 8px 8px 8px 32px;
   text-decoration: none; //u,b,-
-  font-size: 25px;
+  font-size: 18px;
   color: #000000;
   display: block;  
 }
@@ -48,7 +48,7 @@ gen{
 }
 
 b{
-  font-size: 15px;
+  font-size: 18px;
 }
 
 
