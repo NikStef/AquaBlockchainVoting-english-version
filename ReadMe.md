@@ -17,7 +17,7 @@ Aqua has been created with:
 * Node.js version: 18.12.1
 * Ethers.js version: 5.1
 
-## Εγκατάσταση
+## Installation
 First, for Aqua we use the text editor **Visual Studio Code**. 
 In it we install **WSL**(*Windows Subsystem for Linux*), which allows us to use Linux commands on a Windows subsystem. (Note: it is possible that Virtualization in BIOS is off, i.e. we can't create a Linux virtual machine until we change it.)
 ```bash
